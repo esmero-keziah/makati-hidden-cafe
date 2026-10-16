@@ -53,7 +53,7 @@ if (placeRatingElement) {
     }
 
     const isCloseBy = numericRating >= 4.0; 
-    const distanceNote = isCloseBy ? "Pet-Friendly" : "Quantity of the food";
+    const distanceNote = isCloseBy ? "Pet-Friendly" : "No to Pets";
 
     const distanceNoteElement = document.getElementById("distance-note");
     if (distanceNoteElement) {
